@@ -1,0 +1,47 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.box {
+  height: 300px;
+  width: 500px;
+  border: 1px solid black;
+  margin: 10px;
+  background: orange;
+  font-size:80px;
+padding-top:25px;
+}
+.container {
+  display:flex ;
+  justify-content: center;
+  background: gray;
+  height:1000px ;
+  align-items: center;
+  text-align:center ;
+   }
+.box:hover {
+  cursor: pointer;
+  background-color: #8a7e00 ;
+  border:10px solid #000000 ;
+  color: black ;
+  font-size:90px ;
+  transition:all 70ms ;
+  
+}
+a {
+  text-decoration: none ;
+  color: white;
+}
+a:hover {
+  color: black;
+}
+.box {
+  background-color: #ffbb00 ;
+  color: white;
+
+}
+div {
+  list-style-type: none ;
+  font-size: 20px;
+}
